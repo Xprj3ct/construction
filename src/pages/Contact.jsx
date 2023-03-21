@@ -14,6 +14,11 @@ function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    alert("Form submitted successfully!");
+    setFullname("");
+    setEmail("");
+    setPhone("");
+    setMessage("");
 
     const formData = {
       fullname,
@@ -21,6 +26,7 @@ function Contact() {
       phone,
       message,
     };
+
 
     fetch("http://localhost:3000/send-email", {
       method: "POST",
@@ -164,6 +170,7 @@ function Contact() {
                       <span className="label-text">Fullname</span>
                     </label>
                     <input
+                      required
                       name="name"
                       type="text"
                       placeholder="full name"
@@ -177,6 +184,7 @@ function Contact() {
                       <span className="label-text">Email</span>
                     </label>
                     <input
+                      required
                       type="text"
                       placeholder="email"
                       className="input input-bordered"
@@ -189,6 +197,7 @@ function Contact() {
                       <span className="label-text">Phone number</span>
                     </label>
                     <input
+                      required
                       name="phone"
                       type="tel"
                       placeholder="phone number"
@@ -210,6 +219,7 @@ function Contact() {
                   </div>
                   <div className="form-control mt-6">
                     <button
+                    
                       value="Send"
                       className="btn bg-green-500 border-none"
                     >

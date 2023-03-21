@@ -42,7 +42,9 @@ function Projects() {
         <div className="flex md:w-[50%] mx-auto flex-col items-start justify-center -mt-20 md:-mt-40 text-xl p-6 md:p-20 mb-10">
           <div className="text-lg font-semibold md:text-3xl">
             <p>
-              Over the years we are know for offering a satisfactory........
+              Over the years we are know for offering a satisfactory, exceptional,
+              quality service and uncompromising integrity in all our civil engineering
+              and electrical services
             </p>
           </div>
           <div className="collapse">
