@@ -28,7 +28,7 @@ function Contact() {
     };
 
 
-    fetch("http://email-api-xprj3ct.vercel.app/send-email", {
+    fetch("https://email-api-xprj3ct.vercel.app/send-email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
