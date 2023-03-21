@@ -13,6 +13,15 @@ app.use(cors({
   origin: 'https://construction-wine.vercel.app'
 }));
 
+app.options('/send-email', cors({
+  origin: 'https://construction-wine.vercel.app'
+}), (req, res) => {
+  res.set('Access-Control-Allow-Methods', 'POST');
+  res.set('Access-Control-Allow-Headers', 'Content-Type');
+  res.set('Access-Control-Allow-Origin', 'https://construction-wine.vercel.app');
+  res.status(204).send();
+});
+
 app.post("/send-email", (req, res) => {
   const { fullname, email, phone, message } = req.body;
 
