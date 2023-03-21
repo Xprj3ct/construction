@@ -18,7 +18,7 @@ function About() {
 
   return (
     <div className="overflow-x-hidden">
-      <div className="grid w-full grid-cols-12 h-full mb-10 overflow-x-hidden " >
+      <div className="grid w-full grid-cols-12 h-full mb-10 overflow-x-hidden ">
         <div className="col-span-12 w-full h-96 " id="image-set">
           <motion.h1
             className="flex text-white font-monserrat md:text-5xl uppercase font-semibold md:items-center items-center md:justify-center md:mt-0 mt-12 h-full w-full text-center flex-col"
@@ -51,14 +51,15 @@ function About() {
                 />
               </h1>
               <p className="text-lg" data-aos="fade-in">
-                At the forefront of the development and construction industry,
-                we strive to set the pace with our unwavering commitment to
-                exceptional quality, uncompromising integrity, and unparalleled
-                resourcefulness. Our overarching mission is to enhance the value
-                we offer to our clients by continually elevating the standards
-                of our service delivery. With a relentless focus on continuous
-                improvement, we are dedicated to delivering value-added services
-                that meet and exceed our clients' expectations.
+                we are dedicated to being at the forefront of the civil
+                engineering and electrical services industry in Nigeria. We
+                strive to set the pace by delivering exceptional quality,
+                uncompromising integrity, and unparalleled resourcefulness to
+                our clients. Our mission is to enhance the value we offer by
+                continually elevating the standards of our service delivery. We
+                achieve this through a relentless focus on continuous
+                improvement and by delivering value-added services that meet and
+                exceed our clients' expectations.
               </p>
             </div>
             <div
@@ -84,42 +85,31 @@ function About() {
                 <div>
                   As a prominent player in Nigeria's thriving renewable energy
                   sector, we have established ourselves as a premier provider of
-                  sustainable solutions since our inception in 1991. With our
-                  extensive expertise, we have transformed numerous businesses,
-                  SMEs, and government sites into vibrant ecosystems of
-                  renewable energy through the installation of cutting-edge
-                  rooftop solar panels, innovative battery storage systems, and
-                  state-of-the-art solar carports. Our unwavering commitment to
-                  delivering sustainable solutions has led us to collaborate
-                  with some of the most prominent brands in the industry,
-                  enabling us to provide our clients with unrivaled financial
-                  savings and renewable energy across the length and breadth of
-                  the country. With a dedicated team of seasoned professionals
-                  and a passion for excellence, we are committed to forging
-                  long-lasting partnerships with our clients and delivering
-                  sustainable energy solutions that inspire and uplift
-                  communities.
+                  sustainable solutions since our inception in 1991. Our mission
+                  is to provide comprehensive and sustainable civil engineering
+                  and electrical solutions to businesses, SMEs, and government
+                  sites in Nigeria. We are committed to delivering high-quality
+                  solutions that meet the unique needs of our clients while
+                  reducing their carbon footprint and operating costs. Our team
+                  of expert engineers and electricians works closely with our
+                  clients to ensure the safe and efficient operation of their
+                  electrical systems and the successful completion of their
+                  civil engineering projects. We are dedicated to forging
+                  long-lasting partnerships with our clients and contributing to
+                  the development of a sustainable future for Nigeria.
                 </div>
                 <div>
-                  When it comes to rooftop solar panels, our unparalleled
-                  expertise is second to none. While our competitors were
-                  fixated on mounting rooftop solutions, we blazed a new trail
-                  by spearheading the installation of groundbreaking solar
-                  carports. Our unwavering commitment to providing tailored
-                  solar solutions for our diverse clientele has been the driving
-                  force behind our success, enabling us to maintain an
-                  unwavering focus and continuously raise the bar in solar
-                  installation across the nation. By leveraging our strategic
-                  partnerships with leading international engineering firms and
-                  technical partners, we remain at the forefront of the latest
-                  innovations and technological advancements in the field. This
-                  enables us to keep pace with global trends and provide our
-                  clients with bespoke, cutting-edge solutions that are tailored
-                  to their unique needs and requirements. With a passion for
-                  excellence and a track record of delivering outstanding
-                  results, we remain dedicated to setting the standards in solar
-                  installation and propelling the renewable energy sector
-                  forward.
+                  LuckyLumac's vision is to be a premier provider of sustainable
+                  civil engineering and electrical solutions in Nigeria,
+                  delivering customized and innovative solutions that inspire
+                  and uplift communities while reducing their carbon footprint.
+                  We strive to forge long-lasting partnerships with our clients
+                  and collaborate with prominent brands in the industry to
+                  provide unrivaled financial savings and renewable energy
+                  solutions across the country. Our team of seasoned
+                  professionals is committed to excellence, safety, and
+                  delivering solutions that meet the unique needs of our
+                  clients.
                 </div>
               </div>
             </div>
@@ -140,25 +130,30 @@ function About() {
             KNOW more about our company
           </h1>
           <p className="text-white md:px-60" data-aos="slide-left">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Repudiandae qui quasi vero amet neque ipsam deserunt error
-            temporibus sit exercitationem, culpa accusamus dicta animi atque
-            placeat tempore dolorem, obcaecati at! Lorem ipsum, dolor sit amet
-            consectetur adipisicing elit. Nesciunt ratione voluptatem rerum
-            doloremque omnis mollitia a officia fugit, libero non soluta
-            placeat, corporis, nostrum ad? Architecto aliquid quo
-            exercitationem, omnis ratione ipsam ea. Voluptatum expedita aliquam
-            impedit repellendus quibusdam fuga neque a, tempore velit porro est
-            reprehenderit architecto eveniet ad. Lorem ipsum dolor, sit amet
-            consectetur adipisicing elit. Praesentium quisquam modi libero,
-            quaerat cupiditate accusamus magni? Ipsum facilis itaque aliquid?
-            Nobis dolore modi dolorem eaque quidem. Incidunt quas error id
-            nesciunt modi explicabo atque esse itaque cum aliquam expedita odio
-            et cumque eaque minus consectetur maxime asperiores ipsa commodi,
-            necessitatibus dicta inventore sit, quisquam est? Rem distinctio
-            sapiente doloribus quisquam asperiores reiciendis magni aspernatur
-            dolorem sequi, odit delectus! Natus voluptate non rem praesentium
-            perspiciatis facere alias eligendi fuga ipsam accusamus!
+            LuckyLumac is a dynamic and innovative company that has been leading
+            the way in sustainable solutions in Nigeria since 1991. Our team is committed to delivering
+            exceptional quality and uncompromising integrity in all our civil
+            engineering and electrical services. We specialize in the design and
+            construction of buildings and structures, transportation
+            infrastructure, structural engineering, urban planning and
+            development, and geotechnical engineering. Our services are tailored
+            to meet the unique needs of our clients, from SMEs to large
+            corporations and government agencies. At LuckyLumac, we believe that
+            sustainable solutions are essential for the future of Nigeria.
+            That's why we are dedicated to providing cutting-edge solutions,
+            such as rooftop solar panels, innovative battery storage systems,
+            and state-of-the-art solar carports, to transform businesses and
+            communities into vibrant ecosystems of renewable energy. Our team of
+            seasoned professionals is committed to excellence, safety, and
+            delivering services that exceed our clients' expectations. We are
+            proud to collaborate with some of the most prominent brands in the
+            industry, enabling us to provide our clients with unrivaled
+            financial savings and renewable energy across the country. We are
+            passionate about forging long-lasting partnerships with our clients
+            and contributing to the development of a sustainable future for
+            Nigeria. At LuckyLumac, we are committed to harnessing the power of
+            engineering and technology to drive progress and inspire positive
+            change.
           </p>
         </div>
       </div>

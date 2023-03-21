@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 import Services from './pages/Services';
 import Projects from './pages/Projects';
 import Construction from './pages/Construction';
-import Electrical from './pages/Electrical';
+
 
 
 function App() {
@@ -47,7 +47,7 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/construction" element={<Construction />} />
               <Route path="/services" element={<Services />} />
-              <Route path="/electrical" element={<Electrical />} />
+             
               <Route path="/projects" element={<Projects />} />
             </Routes>
           </div>

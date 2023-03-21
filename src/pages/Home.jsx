@@ -65,11 +65,15 @@ function Home() {
                 </span>
               </h1>
               <p className="text-black lg:pr-20 w-full pr-4 lg:my-5 lg:tracking-wide lg:text-xl lg:first-line lg:font-medium font-light">
-                LUCKY LUMACS is a
-                ............................................................................
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Consectetur natus, enim itaque aut voluptatum est nihil vitae
-                voluptate sequi laboriosam?
+                LuckyLumac is a Pioneering company that leads the way in
+                providing innovative and sustainable solutions in the civil
+                engineering and electrical services industry. With a team of
+                experienced professionals and a dedication to customer
+                satisfaction, LuckyLumac delivers exceptional quality and
+                efficiency in every project, big or small. Whether it's
+                designing and constructing buildings or providing renewable
+                energy solutions, LuckyLumac is committed to unleashing
+                excellence through innovation.
               </p>
               <NavLink to="/about">
                 <button className="btn hover:shadow-lg hover:bg-warning hover:text-white lg:btn-lg btn-warning flex flex-row justify-center items-center gap-3 my-4 text-black">
@@ -106,10 +110,9 @@ function Home() {
               className="text-gray-500 uppercase text-[2.3rem] md:text-[2.5rem] text-muted py-1"
             >
               <span className="text-warning font-bold uppercase">
-                we believe
+                Empowering progress
               </span>{" "}
-              in offering modern power and construction Engineering Solutions
-              with our technical expertise.
+              with modern power and construction solutions.
             </motion.h1>
             <motion.p
               initial={{ x: "-100vw" }}
@@ -117,9 +120,11 @@ function Home() {
               transition={{ delay: 0.2 }}
               className="text-gray-500 w-full pr-4 lg:my-5 lg:tracking-wide lg:text-xl font-semibold"
             >
-              With years of experience in the construction and electrical
-              industry, we have developed a deep understanding of the technical
-              aspects of building and maintaining infrastructure. Our team of
+              We are committed to delivering innovative and sustainable
+              solutions that empower progress and drive positive change in
+              communities across Nigeria. At LuckyLumac, we believe that modern
+              solutions and technical expertise can unlock incredible potential
+              and help transform the future of our communities.
             </motion.p>
           </div>
           <div
@@ -155,8 +160,12 @@ function Home() {
               over our years of operation
             </h1>
             <p className="text-black w-full pr-4 lg:my-5 lg:tracking-wide lg:text-xl text-muted lg:pb-0 md:pb-32">
-              we have earned our experiencesin delivering the best and upgraded
-              technological advance sover our years of operations.......
+              In the fields of power and construction engineering for more than
+              three decades of successful operation in Nigeria's competitive
+              market. The company's unwavering commitment to excellence,
+              innovative solutions, and customer satisfaction has enabled it to
+              establish a reputation as a premier provider of sustainable
+              solutions in the country.
               <NavLink to="/about">
                 <button className="btn hover:shadow-lg hover:bg-warning hover:text-white lg:btn-lg btn-warning flex flex-row justify-center items-center gap-3 my-4 text-white">
                   Learn more
@@ -206,8 +215,8 @@ function Home() {
                   Excellence
                 </h1>
                 <p className="md:text-left text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-                  cumque recusandae suscipit ipsum dignissimos placeat quia
+                  At Luckylumac, excellence is not just a standard, it's a way
+                  of life. We are committed to delivering exceptional qua....
                 </p>
               </div>
               <div
@@ -222,8 +231,8 @@ function Home() {
                   customer satisfaction
                 </h1>
                 <p className="md:text-left text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-                  cumque recusandae suscipit ipsum dignissimos placeat quia
+                  We strive to provide exceptional service and value to all of
+                  our clients. Our team is dedicated to underst....
                 </p>
               </div>
             </div>
@@ -240,8 +249,8 @@ function Home() {
                   quick delivery
                 </h1>
                 <p className="md:text-left text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-                  cumque recusandae suscipit ipsum dignissimos placeat quia
+                  A top priority at LuckyLumac, where we understand the
+                  importance of timely delivery in meeting our clients needs....
                 </p>
               </div>
               <div
@@ -256,8 +265,8 @@ function Home() {
                   time management
                 </h1>
                 <p className="md:text-left text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-                  cumque recusandae suscipit ipsum dignissimos placeat quia
+                  A key aspect of LuckyLumac's approach to providing exceptional
+                  service to our clients. We recognize that effect....
                 </p>
               </div>
             </div>
@@ -410,20 +419,26 @@ function Home() {
                   We offer various services such as:
                 </h1>
                 <h1 className="md:text-6xl text-3xl py-2 font-bold">
-                  Construction (civil Engineering) Services
+                  Construction (Civil Engineering) Services
                 </h1>
                 <p className="md:text-xl">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                  debitis molestias id. Nam reprehenderit, omnis quidem eligendi
-                  eius modi iure esse similique nostrum alias dolorum iste
-                  molestiae deleniti dolor culpa?
+                  Luckylumac offers top-tier civil engineering and construction
+                  services. Our experienced team specializes in site analysis,
+                  project management, and custom solutions to meet our clients'
+                  needs. We prioritize safety, attention to detail, and timely
+                  delivery within budget. Trust Luckylumac as your partner for
+                  successful projects that bring your vision to life.
                 </p>
                 <div className="flex flex-col w-full">
                   <div>
-                    <ul className="list-disc py-3 mask1">
-                      <li>drainage construction</li>
-                      <li>drainage construction</li>
-                      <li>drainage construction</li>
+                    <ul className="list-disc font-bold py-3 mask1">
+                      <li>
+                        Design and construction of buildings and structures
+                      </li>
+                      <li>Transportation infrastructure</li>
+                      <li>Structural engineering</li>
+                      <li>Urban planning and development</li>
+                      <li>Geotechnical engineering</li>
                     </ul>
                   </div>
                   <div data-aos="flip-up">
@@ -468,17 +483,23 @@ function Home() {
                   Electrical (Renewable Energy) Engineering Services
                 </h1>
                 <p className="md:text-xl">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                  debitis molestias id. Nam reprehenderit, omnis quidem eligendi
-                  eius modi iure esse similique nostrum alias dolorum iste
-                  molestiae deleniti dolor culpa?
+                  LuckyLumac offers Electrical and Renewable Energy services,
+                  from installation and maintenance to design and consulting. We
+                  prioritize renewable energy sources for a sustainable future.
+                  We serve residential, commercial, and industrial projects with
+                  expertise and high-quality results. Choose LuckyLumac for all
+                  your energy needs and power your future with confidence.
                 </p>
                 <div className="flex flex-col w-full">
                   <div>
-                    <ul className="list-disc py-3 mask1">
-                      <li>drainage construction</li>
-                      <li>drainage construction</li>
-                      <li>drainage construction</li>
+                    <ul className="list-disc font-bold py-3 mask1">
+                      <li>
+                        Electrical installation 
+                      </li>
+                      <li>Electrical repair & maintenance</li>
+                      <li>Solar power custom installation</li>
+                      <li>Solar equipment procurement</li>
+                      <li>Solar powered boreholes</li>
                     </ul>
                   </div>
                   <div data-aos="flip-up">

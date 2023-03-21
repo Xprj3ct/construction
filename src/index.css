@@ -63,14 +63,8 @@ button {
 }
 
 #image-set {
-background:
-        /* top, transparent black, faked with gradient */ 
-        linear-gradient(
-          rgba(0, 0, 0, 0.7), 
-          rgba(0, 0, 0, 0.7)
-        ),
-        /* bottom, image */
-        url(../src/assets/images/construction-site.jpg);
+background: linear-gradient(63deg, rgba(2,0,36,1) 8%, rgba(22,24,33,1) 32%, rgba(75,91,94,0) 93%),
+        url(../src/assets/images/construction-image3.jpg);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
@@ -103,19 +97,19 @@ background:
     }
 
           #construction-wrapper {
-          background:  linear-gradient(0deg, rgba(2,0,36,0.9332107843137255) 8%, rgba(22,24,33,0.8519782913165266) 32%, rgba(75,91,94,0) 93%), url(../src/assets/gallery/project-image -25.jpg);
-          background-repeat: no-repeat;
-          background-position: top center;
+          background: linear-gradient(63deg, rgba(2,0,36,1) 8%, rgba(22,24,33,1) 32%, rgba(75,91,94,0) 93%), url(../src/assets/images/construction-site.jpg);
           background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
     }
 
 
-    @media (min-width: 768px) {
+    /* @media (min-width: 768px) {
           #construction-wrapper {
-          background: linear-gradient(63deg, rgba(2,0,36,1) 8%, rgba(22,24,33,1) 32%, rgba(75,91,94,0) 93%), url(../src/assets/gallery/project-image -25.jpg);
-          background-repeat: no-repeat;
-          background-position: top center;
+          background: linear-gradient(63deg, rgba(2,0,36,1) 8%, rgba(22,24,33,1) 32%, rgba(75,91,94,0) 93%), url(../src/assets/images/construction-site.jpg);
           background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
     }
 
-}
+} */

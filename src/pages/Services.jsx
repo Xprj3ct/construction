@@ -13,7 +13,7 @@ function Services() {
   });
   return (
     <div className="flex flex-col overflow-x-hidden">
-      <div className="w-full h-96" id="image-set">
+      {/* <div className="w-full h-96" id="image-set">
         <motion.h1
           className="flex text-white font-monserrat text-5xl uppercase font-semibold items-center justify-center h-full w-full text-center flex-col"
           data-aos="zoom-in"
@@ -21,6 +21,30 @@ function Services() {
           <span className="text-3xl text-warning">our{""}</span>
           <span>services</span>
         </motion.h1>
+      </div> */}
+      <div
+        className="grid grid-cols-12 w-full pt-10 md:h-[50vh] h-[50vh]"
+        id="image-set"
+      >
+        <div className="col-span-12">
+          <div className="flex flex-col h-full px-5 gap-3">
+            <h1
+              className="font-monserrat md:text-5xl text-xl font-bold text-green-500 mt-auto"
+              data-aos="slide-left"
+            >
+              Unlock the power of renewable energy <br />
+              <span className="text-white font-normal">
+                with LuckyLumac's expert Electrical services.
+              </span>
+              <br />
+              <div
+                className="w-32 h-3 my-2 bg-warning"
+                data-aos="slide-up"
+              ></div>
+            </h1>
+            <p className="md:w-[50vw] font-monserrat text-sm md:text-xl font-normal text-white md:block mb-10"></p>
+          </div>
+        </div>
       </div>
 
       <div>
@@ -41,11 +65,15 @@ function Services() {
             </h1>
             <div className="flex md:flex-row flex-col md:gap-4 text-white z-50">
               <div
-                className="w-72 text-xl flex items-center "
+                className="w-92 text-xl flex items-center "
                 data-aos="fade-right"
               >
-                We offer a range of services that span across energy audits,
-                installations, commissioning and system maintenance
+                LuckyLumac offers Electrical and Renewable Energy services, from
+                installation and maintenance to design and consulting. We
+                prioritize renewable energy sources for a sustainable future. We
+                serve residential, commercial, and industrial projects with
+                expertise and high-quality results. Choose LuckyLumac for all
+                your energy needs and power your future with confidence.
               </div>
               <div
                 className="flex items-center justify-center md:mt-0 md:relative -mt-36"
@@ -57,10 +85,10 @@ function Services() {
           </div>
           <div className="col-span-12 mb-10">
             <div className="flex md:w-[50%] mx-auto flex-col items-start justify-center -mt-20 md:-mt-20 bg-gray-200 text-xl p-6 md:p-20 mb-10 shadow-xl">
-              <div className="collapse">
+              {/* <div className="collapse">
                 <input type="checkbox" />
                 <div className="collapse-title text-2xl md:gap-0 gap-5 md:text-4xl font-semibold uppercase flex flex-row justify-between items-center py-10">
-                  <span>solar energy installation</span>
+                  <span>Energy installation</span>
                   <span>
                     <BsArrowDownSquareFill />
                   </span>
@@ -80,31 +108,49 @@ function Services() {
                     sustainability.
                   </p>
                 </div>
-              </div>
+              </div> */}
               <div className="collapse">
                 <input type="checkbox" />
                 <div className="collapse-title text-2xl md:gap-0 gap-5 md:text-4xl font-semibold uppercase flex flex-row justify-between items-center py-10">
-                  <span>Electrical services</span>
+                  <span>Electrical Installation</span>
                   <span>
                     <BsArrowDownSquareFill />
                   </span>
                 </div>
                 <div className="collapse-content">
                   <p className="font-normal md:text-lg text-sm">
-                    Installation, repair, and maintenance of electrical systems
-                    and equipment in buildings, facilities, and industrial
-                    sites. These services include the design and installation of
+                    We specialize in the design and installation of electrical
+                    systems and equipment in buildings, facilities, and
+                    industrial sites. Our services include the installation of
                     electrical wiring, lighting systems, power distribution
-                    systems, and electrical control systems. Electrical
-                    contractors also provide troubleshooting and repair services
-                    to address electrical problems such as power outages,
-                    circuit overloads, and electrical equipment malfunctions.
-                    Additionally, electrical contractors offer maintenance
-                    services to ensure that electrical systems continue to
-                    function optimally and efficiently. Overall, electrical
-                    services are essential for ensuring the safe and efficient
-                    operation of electrical systems in residential, commercial,
-                    and industrial settings.
+                    systems, and electrical control systems. We work closely
+                    with our clients to understand their specific needs and
+                    provide customized solutions that meet their requirements.
+                  </p>
+                </div>
+              </div>
+              <div className="collapse">
+                <input type="checkbox" />
+                <div className="collapse-title text-2xl md:gap-0 gap-5 md:text-4xl font-semibold uppercase flex flex-row justify-between items-center py-10">
+                  <span>Electrical Repair & Maintenance</span>
+                  <span>
+                    <BsArrowDownSquareFill />
+                  </span>
+                </div>
+                <div className="collapse-content">
+                  <p className="font-normal md:text-lg text-sm">
+                    Our team of electricians is equipped to handle any
+                    electrical repair needs that may arise, from power outages
+                    and circuit overloads to electrical equipment malfunctions.
+                    We use advanced diagnostic tools and techniques to quickly
+                    identify the source of the problem and provide effective
+                    solutions that restore electrical systems to optimal
+                    functioning. We also offer maintenance services to ensure
+                    the continued safe and efficient operation of electrical
+                    systems and equipment. Our maintenance services include
+                    routine inspections, testing, and cleaning of electrical
+                    systems and equipment to identify and address potential
+                    problems before they become major issues.
                   </p>
                 </div>
               </div>
